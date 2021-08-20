@@ -1,0 +1,194 @@
+body {
+   background-color: rgb(156, 215, 233);
+   font-weight: bold;
+}
+
+div {
+   font-family: helvetica;
+   background-color: #333333;
+   color: white;
+   font-size: 32px;
+   padding: 5px;
+}
+
+#big_div {
+   display: flex;
+   justify-content: space-around;
+}
+
+.recyclePicture {
+   width: 180px;
+   padding: 5px;
+   padding-left: 555px;
+}
+
+.items:hover {
+   background-color: gray;
+   opacity: 0.5;
+}
+
+img {
+   width: 80px;
+}
+
+.items {
+   border-left: 3px solid greenyellow;
+   border-right: 3px solid greenyellow;
+   border-top: 1px solid transparent;
+   border-bottom: 1px solid transparent;
+   font-size: 28px;
+}
+
+a {
+   width: 20%;
+   text-align: center;
+   text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 50px;
+    color: #FFD700;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 10px darkblue;
+}
+
+#content {
+    text-align: center;
+    background-color: greenyellow;
+    box-shadow: 5px 5px 5px black;
+    border: 5px dashed rgb(0,0,255);
+    border-radius: 20px;
+}
+
+#content p {
+    color: blue;
+}
+
+#intro {
+   font-style: italic;
+   text-align: center;
+   font-size: 30px;
+   background-color: #FF4500;
+   color: #FFFAF0;
+   border: 5px dashed #00FF00;
+}
+
+#buttons {
+   background-color: crimson;
+   display: flex;
+   justify-content: space-between;
+}
+
+#municipal, #industrial, #agricultural, #hazardous {
+   font-size: 25px;
+   box-shadow: 3px 3px 3px black;
+} 
+
+#details {
+   text-align: center;
+   visibility: hidden;
+   border: 5px solid rgb(0,0,255);
+   border-radius: 20px;
+}
+
+#img1 {
+   height: 300px;
+   width: 400px;
+   box-shadow: 5px 5px 5px black;
+}
+
+#p1 {
+   font-size: 35px;
+}
+
+#municipal {
+   background-color: yellow;
+   color: #4B0082;
+}
+
+#industrial {
+   background-color: #ADFF2F;
+   color: red;
+}
+
+#agricultural {
+   background-color: #90EE90;
+   color: blue;
+}
+
+#hazardous {
+   background-color: #40E0D0;
+}
+
+#effects {
+   padding-left: 350px;
+   text-align: left;
+   background-color: rgb(0, 255, 0);
+   border: 5px solid tomato;
+   border-radius: 20px;
+}
+
+#effects h4{
+   text-align: center;
+   text-decoration: underline;
+   color: indigo;
+   padding-right: 350px;
+}
+
+.items2 {
+   height: 150px;
+   width: 300px;
+   box-shadow: 5px 5px 5px black;
+}
+
+ol li {
+   font-size: 30px;
+}
+
+.Solutions {
+   text-align: center;
+   background-color: greenyellow;
+   box-shadow: 5px 5px 5px black;
+   border: 5px dashed rgb(0,0,255);
+   border-radius: 20px;
+   color:black; 
+}
+
+.RecycleReduceReuse {
+   width: 180px;
+   padding: 5px;
+   padding-left: 555px;
+}
+
+#frame001 {
+  background-color:burlywood;
+  border: 2px solid blue;
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  padding: 5px;
+}
+
+#color001 {
+  color: black;
+  font-size: large;
+  text-align: left;
+}
+
+#center001 {
+  text-align: center;
+}
+
+.button001 {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.button002 {
+  width: 10px;
+  height: 10px;
+}
